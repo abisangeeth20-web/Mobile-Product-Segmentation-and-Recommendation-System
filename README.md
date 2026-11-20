@@ -37,6 +37,7 @@ An end-to-end Python and machine-learning pipeline built on the **Global Mobile 
 
 Full details are in the reports:
 
+* **[PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md)**: final project documentation, mapping each spec requirement, deliverable and evaluation metric to this project
 * [reports/EDA_Report.md](reports/EDA_Report.md)
 * [reports/Cluster_Analysis_Report.md](reports/Cluster_Analysis_Report.md)
 * [reports/Recommendation_System_Report.md](reports/Recommendation_System_Report.md)
