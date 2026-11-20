@@ -1,0 +1,7 @@
+,mean,std,cv_%
+avg_price_usd,731.7668,249.9603,34.1585
+avg_rating,3.1199,0.0243,0.7777
+positive_share,0.5569,0.0113,2.031
+avg_aspect,2.7171,0.0228,0.8388
+avg_engagement,5.1012,0.0708,1.3872
+avg_age,30.0871,0.203,0.6748

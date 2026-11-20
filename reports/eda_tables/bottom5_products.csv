@@ -1,0 +1,6 @@
+model,brand,n_reviews,avg_price_usd,avg_rating,bayes_rating,positive_share,negative_share
+Mi 13 Pro,Xiaomi,2445,448.9141,3.0928,3.0976,0.5562,0.1996
+Galaxy A55,Samsung,1788,904.5384,3.0895,3.0963,0.5531,0.2041
+Edge 50,Motorola,2315,508.6976,3.0868,3.0929,0.5456,0.1909
+iPhone 15 Pro,Apple,1793,1103.4099,3.0837,3.0918,0.5376,0.2103
+Galaxy S24,Samsung,1761,894.1257,3.071,3.082,0.5451,0.1959

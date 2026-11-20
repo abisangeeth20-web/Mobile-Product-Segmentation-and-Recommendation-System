@@ -1,0 +1,9 @@
+country,reviews,currency,avg_price_usd,avg_rating,positive_share,top_brand
+Australia,6219,AUD,689.693,3.131,0.559,Realme
+Brazil,6419,BRL,692.645,3.115,0.548,Xiaomi
+Canada,6170,CAD,689.644,3.121,0.56,Google
+Germany,6162,EUR,696.666,3.106,0.553,OnePlus
+India,6124,INR,688.465,3.114,0.553,Google
+UAE,6261,AED,688.347,3.142,0.564,OnePlus
+UK,6210,GBP,687.05,3.123,0.565,Xiaomi
+USA,6435,USD,685.166,3.115,0.556,Realme

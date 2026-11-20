@@ -1,0 +1,5 @@
+persona,budget_usd,priorities,top_recommendations,in_budget_%,avg_priority_score_recs,catalog_priority_score
+Student on a budget,150-450,"Battery, Performance","Realme 12 Pro, Realme Narzo 70, Redmi Note 13",100.0,2.753,2.719
+Camera-first creator,600-1100,"Camera, Display","Pixel 8, Pixel 6, Pixel 7a",100.0,2.808,2.719
+Premium professional,1000-1600,"Performance, Design","iPhone 13, iPhone 14, iPhone 15 Pro",100.0,2.783,2.717
+Mid-range all-rounder,400-800,"Battery, Camera, Performance, Design, Display","Moto G Power, Edge 50, Razr 40",100.0,2.712,2.718

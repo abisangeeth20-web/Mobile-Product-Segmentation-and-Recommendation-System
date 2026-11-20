@@ -1,0 +1,5 @@
+product_segment,models,brands,reviews,avg_price_usd,price_range_usd,avg_rating,positive_%,value_score
+Budget,8,"Motorola, Realme, Xiaomi",21434,456.878,$188 - $790,3.117,55.475,0.78
+Mid-range,6,"Google, OnePlus",14370,738.629,"$361 - $1,090",3.124,55.952,0.457
+Upper mid-range,4,Samsung,7052,899.448,"$420 - $1,382",3.111,55.448,0.389
+Premium,4,Apple,7144,1103.569,"$715 - $1,486",3.127,55.97,0.297

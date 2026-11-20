@@ -1,0 +1,5 @@
+customer_segment,reviews,share_%,avg_price_usd,avg_rating,avg_aspect,positive_%,negative_%,avg_helpful_votes,verified_%,avg_age,top_brand,top_model,Battery,Camera,Performance,Design,Display
+Premium · Satisfied,8750,17.5,1028.85,4.21,3.71,89.73,0.94,4.69,80.43,30.15,Apple,iPhone 13,3.72,3.71,3.7,3.7,3.71
+Premium · Dissatisfied,9384,18.77,1036.82,2.14,1.82,24.95,36.26,2.71,80.41,30.09,Apple,iPhone SE,1.82,1.82,1.82,1.82,1.82
+Budget/Mid · Satisfied,14982,29.96,492.03,4.21,3.71,90.17,1.03,4.69,79.95,30.18,Realme,Realme Narzo 70,3.71,3.7,3.71,3.69,3.71
+Budget/Mid · Dissatisfied,16884,33.77,496.4,2.14,1.83,24.64,35.92,2.69,80.0,29.93,Xiaomi,Realme Narzo 70,1.82,1.82,1.83,1.83,1.83

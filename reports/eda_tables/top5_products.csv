@@ -1,0 +1,6 @@
+model,brand,n_reviews,avg_price_usd,avg_rating,bayes_rating,positive_share,negative_share
+iPhone 14,Apple,1788,1099.2199,3.1689,3.1584,0.5783,0.1935
+iPhone 13,Apple,1767,1108.2654,3.1488,3.1427,0.5739,0.1879
+Galaxy Note 20,Samsung,1789,899.7462,3.1487,3.1426,0.559,0.1878
+Realme 12 Pro,Realme,3535,393.8978,3.1446,3.1416,0.5717,0.1867
+Moto G Power,Motorola,2351,504.6061,3.1353,3.1327,0.5636,0.1816

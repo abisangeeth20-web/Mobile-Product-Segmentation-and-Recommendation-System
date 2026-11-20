@@ -1,0 +1,256 @@
+{
+  "cleaning_log": {
+    "raw_shape": [
+      50000,
+      22
+    ],
+    "raw_nulls": {
+      "price_usd": 2450,
+      "price_local": 2431,
+      "rating": 2453,
+      "sentiment": 2445,
+      "source": 2448
+    },
+    "duplicates_removed": 0,
+    "unparseable_dates": 0,
+    "brand_model_conflicts": 0,
+    "country_currency_conflicts": 0,
+    "out_of_range_ratings": 0,
+    "invalid_age": 0,
+    "price_identity_holds_share": 1.0,
+    "price_identity_violations_fixed": 0,
+    "price_usd_recovered_exactly": 2327,
+    "price_local_recovered_exactly": 2308,
+    "price_both_missing_model_median": 123,
+    "imputation_check": {
+      "rating_rule_accuracy": 0.7776,
+      "rating_rule_within_1_star": 0.9997,
+      "rating_global_mode_accuracy": 0.2806,
+      "sentiment_rule_accuracy": 0.7445,
+      "sentiment_global_mode_accuracy": 0.5606
+    },
+    "rating_imputed": 2453,
+    "sentiment_imputed": 2445,
+    "source_filled_unknown": 2448,
+    "rows_dropped_unrecoverable": 0,
+    "remaining_nulls": 0,
+    "clean_shape": [
+      50000,
+      26
+    ]
+  },
+  "customer_segment_profile": [
+    {
+      "customer_segment": "Premium \u00b7 Satisfied",
+      "reviews": 8750,
+      "share_%": 17.5,
+      "avg_price_usd": 1028.85,
+      "avg_rating": 4.21,
+      "avg_aspect": 3.71,
+      "positive_%": 89.73,
+      "negative_%": 0.94,
+      "avg_helpful_votes": 4.69,
+      "verified_%": 80.43,
+      "avg_age": 30.15,
+      "top_brand": "Apple",
+      "top_model": "iPhone 13",
+      "Battery": 3.72,
+      "Camera": 3.71,
+      "Performance": 3.7,
+      "Design": 3.7,
+      "Display": 3.71
+    },
+    {
+      "customer_segment": "Premium \u00b7 Dissatisfied",
+      "reviews": 9384,
+      "share_%": 18.77,
+      "avg_price_usd": 1036.82,
+      "avg_rating": 2.14,
+      "avg_aspect": 1.82,
+      "positive_%": 24.95,
+      "negative_%": 36.26,
+      "avg_helpful_votes": 2.71,
+      "verified_%": 80.41,
+      "avg_age": 30.09,
+      "top_brand": "Apple",
+      "top_model": "iPhone SE",
+      "Battery": 1.82,
+      "Camera": 1.82,
+      "Performance": 1.82,
+      "Design": 1.82,
+      "Display": 1.82
+    },
+    {
+      "customer_segment": "Budget/Mid \u00b7 Satisfied",
+      "reviews": 14982,
+      "share_%": 29.96,
+      "avg_price_usd": 492.03,
+      "avg_rating": 4.21,
+      "avg_aspect": 3.71,
+      "positive_%": 90.17,
+      "negative_%": 1.03,
+      "avg_helpful_votes": 4.69,
+      "verified_%": 79.95,
+      "avg_age": 30.18,
+      "top_brand": "Realme",
+      "top_model": "Realme Narzo 70",
+      "Battery": 3.71,
+      "Camera": 3.7,
+      "Performance": 3.71,
+      "Design": 3.69,
+      "Display": 3.71
+    },
+    {
+      "customer_segment": "Budget/Mid \u00b7 Dissatisfied",
+      "reviews": 16884,
+      "share_%": 33.77,
+      "avg_price_usd": 496.4,
+      "avg_rating": 2.14,
+      "avg_aspect": 1.83,
+      "positive_%": 24.64,
+      "negative_%": 35.92,
+      "avg_helpful_votes": 2.69,
+      "verified_%": 80.0,
+      "avg_age": 29.93,
+      "top_brand": "Xiaomi",
+      "top_model": "Realme Narzo 70",
+      "Battery": 1.82,
+      "Camera": 1.82,
+      "Performance": 1.83,
+      "Design": 1.83,
+      "Display": 1.83
+    }
+  ],
+  "product_segment_profile": [
+    {
+      "product_segment": "Budget",
+      "models": 8,
+      "brands": "Motorola, Realme, Xiaomi",
+      "reviews": 21434,
+      "avg_price_usd": 456.878,
+      "price_range_usd": "$188 - $790",
+      "avg_rating": 3.117,
+      "positive_%": 55.475,
+      "value_score": 0.78
+    },
+    {
+      "product_segment": "Mid-range",
+      "models": 6,
+      "brands": "Google, OnePlus",
+      "reviews": 14370,
+      "avg_price_usd": 738.629,
+      "price_range_usd": "$361 - $1,090",
+      "avg_rating": 3.124,
+      "positive_%": 55.952,
+      "value_score": 0.457
+    },
+    {
+      "product_segment": "Upper mid-range",
+      "models": 4,
+      "brands": "Samsung",
+      "reviews": 7052,
+      "avg_price_usd": 899.448,
+      "price_range_usd": "$420 - $1,382",
+      "avg_rating": 3.111,
+      "positive_%": 55.448,
+      "value_score": 0.389
+    },
+    {
+      "product_segment": "Premium",
+      "models": 4,
+      "brands": "Apple",
+      "reviews": 7144,
+      "avg_price_usd": 1103.569,
+      "price_range_usd": "$715 - $1,486",
+      "avg_rating": 3.127,
+      "positive_%": 55.97,
+      "value_score": 0.297
+    }
+  ],
+  "statistical_tests": {
+    "anova_rating_by_brand": {
+      "F": 0.5028482624932232,
+      "p": 0.8066951385849119,
+      "significant": false
+    },
+    "kruskal_rating_by_brand": {
+      "H": 3.787330970839677,
+      "p": 0.7054301995544747,
+      "significant": false
+    },
+    "anova_rating_by_model": {
+      "F": 0.754413864813797,
+      "p": 0.7783958683467859,
+      "significant": false
+    },
+    "anova_price_by_brand": {
+      "F": 12801.113914339056,
+      "p": 0.0,
+      "significant": true
+    },
+    "chi2_sentiment_vs_brand": {
+      "chi2": 13.529672554640179,
+      "dof": 12.0,
+      "p": 0.33174438905091935,
+      "significant": false
+    },
+    "chi2_sentiment_vs_country": {
+      "chi2": 15.174043844701263,
+      "dof": 14.0,
+      "p": 0.36636171779711363,
+      "significant": false
+    },
+    "chi2_sentiment_vs_source": {
+      "chi2": 7.032961000092506,
+      "dof": 10.0,
+      "p": 0.722329612471499,
+      "significant": false
+    },
+    "chi2_brand_vs_age_group": {
+      "chi2": 22.949192022550434,
+      "dof": 24.0,
+      "p": 0.5227991342203266,
+      "significant": false
+    },
+    "chi2_brand_vs_country": {
+      "chi2": 33.20308795928504,
+      "dof": 42.0,
+      "p": 0.8320424132989217,
+      "significant": false
+    },
+    "pearson_price_vs_rating": {
+      "r": 0.001493660732180328,
+      "p": 0.7383912326279238,
+      "significant": false
+    },
+    "spearman_price_vs_aspect_avg": {
+      "rho": 0.0008014564159426297,
+      "p": 0.8577754414044167,
+      "significant": false
+    },
+    "pearson_helpful_votes_vs_rating": {
+      "r": 0.46031258644881606,
+      "p": 0.0,
+      "significant": true
+    },
+    "welch_t_rating_verified_vs_not": {
+      "t": -0.16508713571424707,
+      "p": 0.8688775701333229,
+      "significant": false
+    }
+  },
+  "cf_evaluation": {
+    "rmse_global": 0.3393,
+    "mae_global": 0.2556,
+    "rmse_item": 0.3423,
+    "mae_item": 0.2561,
+    "rmse_group": 0.3419,
+    "mae_group": 0.2564,
+    "rmse_cf": 0.3548,
+    "mae_cf": 0.2628,
+    "precision@3_cf": 0.1042,
+    "precision@3_random_expected": 0.1364,
+    "groups": 40,
+    "test_cells": 745
+  }
+}

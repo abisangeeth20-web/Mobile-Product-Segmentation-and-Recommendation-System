@@ -1,0 +1,4 @@
+metric,same_segment@3_%,mean_abs_price_diff_usd,mean_abs_rating_diff,other_brand_share_%,catalog_coverage_%
+euclidean,100.0,23.187,0.028,24.242,100.0
+cosine,80.303,57.233,0.029,31.818,95.455
+random,24.242,274.089,0.026,89.394,86.364

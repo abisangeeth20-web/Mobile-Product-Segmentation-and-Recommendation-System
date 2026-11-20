@@ -1,0 +1,278 @@
+{
+  "rows": 50000,
+  "n_clusters": 4,
+  "customer_segmentation": {
+    "features": [
+      "price_usd",
+      "rating",
+      "aspect_avg"
+    ],
+    "metrics": {
+      "silhouette_sample10k": 0.3482046661910309,
+      "davies_bouldin": 1.0225892777309131,
+      "calinski_harabasz": 39521.4925172801,
+      "inertia": 44490.99224921317
+    },
+    "cluster_names": {
+      "3": "Premium \u00b7 Satisfied",
+      "2": "Premium \u00b7 Dissatisfied",
+      "0": "Budget/Mid \u00b7 Satisfied",
+      "1": "Budget/Mid \u00b7 Dissatisfied"
+    },
+    "centers": {
+      "Budget/Mid \u00b7 Satisfied": {
+        "price_usd": 491.765,
+        "rating": 4.206,
+        "aspect_avg": 3.705
+      },
+      "Budget/Mid \u00b7 Dissatisfied": {
+        "price_usd": 496.803,
+        "rating": 2.141,
+        "aspect_avg": 1.829
+      },
+      "Premium \u00b7 Dissatisfied": {
+        "price_usd": 1037.535,
+        "rating": 2.137,
+        "aspect_avg": 1.82
+      },
+      "Premium \u00b7 Satisfied": {
+        "price_usd": 1028.385,
+        "rating": 4.208,
+        "aspect_avg": 3.707
+      }
+    },
+    "alternative_with_encoded_categoricals": {
+      "features": [
+        "price_usd",
+        "rating",
+        "aspect_avg",
+        "age",
+        "engagement_score",
+        "brand (one-hot)",
+        "country (one-hot)"
+      ],
+      "silhouette_sample10k": 0.13506253480863514,
+      "davies_bouldin": 2.1669652397952746,
+      "cluster_rating_spread": 2.146672331074395,
+      "cluster_price_spread": 574.8160865407942
+    },
+    "feature_ranges": {
+      "price_usd": [
+        180.02,
+        1499.89
+      ],
+      "rating": [
+        1.0,
+        5.0
+      ],
+      "aspect_avg": [
+        1.0,
+        5.0
+      ]
+    }
+  },
+  "product_segmentation": {
+    "features": [
+      "avg_price_usd",
+      "min_price_usd",
+      "max_price_usd"
+    ],
+    "metrics": {
+      "silhouette": 0.7907258763119174,
+      "davies_bouldin": 0.35838178812861576,
+      "calinski_harabasz": 163.3499814310864
+    },
+    "cluster_names": {
+      "3": "Budget",
+      "0": "Mid-range",
+      "2": "Upper mid-range",
+      "1": "Premium"
+    },
+    "segments": {
+      "Budget": [
+        "Edge 50",
+        "Mi 13 Pro",
+        "Moto G Power",
+        "Poco X6",
+        "Razr 40",
+        "Realme 12 Pro",
+        "Realme Narzo 70",
+        "Redmi Note 13"
+      ],
+      "Mid-range": [
+        "OnePlus 11R",
+        "OnePlus 12",
+        "OnePlus Nord 3",
+        "Pixel 6",
+        "Pixel 7a",
+        "Pixel 8"
+      ],
+      "Premium": [
+        "iPhone 13",
+        "iPhone 14",
+        "iPhone 15 Pro",
+        "iPhone SE"
+      ],
+      "Upper mid-range": [
+        "Galaxy A55",
+        "Galaxy Note 20",
+        "Galaxy S24",
+        "Galaxy Z Flip"
+      ]
+    }
+  },
+  "recommender": {
+    "default_metric": "euclidean",
+    "hybrid_weights": {
+      "aspect": 0.5,
+      "cf": 0.1,
+      "positive": 0.2,
+      "budget": 0.2
+    },
+    "content_evaluation": [
+      {
+        "metric": "euclidean",
+        "same_segment@3_%": 100.0,
+        "mean_abs_price_diff_usd": 23.187,
+        "mean_abs_rating_diff": 0.028,
+        "other_brand_share_%": 24.242,
+        "catalog_coverage_%": 100.0
+      },
+      {
+        "metric": "cosine",
+        "same_segment@3_%": 80.303,
+        "mean_abs_price_diff_usd": 57.233,
+        "mean_abs_rating_diff": 0.029,
+        "other_brand_share_%": 31.818,
+        "catalog_coverage_%": 95.455
+      },
+      {
+        "metric": "random",
+        "same_segment@3_%": 24.242,
+        "mean_abs_price_diff_usd": 274.089,
+        "mean_abs_rating_diff": 0.026,
+        "other_brand_share_%": 89.394,
+        "catalog_coverage_%": 86.364
+      }
+    ],
+    "cf_evaluation": {
+      "rmse_global": 0.3393,
+      "mae_global": 0.2556,
+      "rmse_item": 0.3423,
+      "mae_item": 0.2561,
+      "rmse_group": 0.3419,
+      "mae_group": 0.2564,
+      "rmse_cf": 0.3548,
+      "mae_cf": 0.2628,
+      "precision@3_cf": 0.1042,
+      "precision@3_random_expected": 0.1364,
+      "groups": 40,
+      "test_cells": 745
+    },
+    "cf_groups": [
+      "country",
+      "age_group"
+    ]
+  },
+  "imputation_check": {
+    "rating_rule_accuracy": 0.7776,
+    "rating_rule_within_1_star": 0.9997,
+    "rating_global_mode_accuracy": 0.2806,
+    "sentiment_rule_accuracy": 0.7445,
+    "sentiment_global_mode_accuracy": 0.5606
+  },
+  "categories": {
+    "brand": [
+      "Apple",
+      "Google",
+      "Motorola",
+      "OnePlus",
+      "Realme",
+      "Samsung",
+      "Xiaomi"
+    ],
+    "model": [
+      "Edge 50",
+      "Galaxy A55",
+      "Galaxy Note 20",
+      "Galaxy S24",
+      "Galaxy Z Flip",
+      "Mi 13 Pro",
+      "Moto G Power",
+      "OnePlus 11R",
+      "OnePlus 12",
+      "OnePlus Nord 3",
+      "Pixel 6",
+      "Pixel 7a",
+      "Pixel 8",
+      "Poco X6",
+      "Razr 40",
+      "Realme 12 Pro",
+      "Realme Narzo 70",
+      "Redmi Note 13",
+      "iPhone 13",
+      "iPhone 14",
+      "iPhone 15 Pro",
+      "iPhone SE"
+    ],
+    "country": [
+      "Australia",
+      "Brazil",
+      "Canada",
+      "Germany",
+      "India",
+      "UAE",
+      "UK",
+      "USA"
+    ],
+    "age_group": [
+      "18-24",
+      "25-34",
+      "35-44",
+      "45-54",
+      "55+"
+    ],
+    "source": [
+      "AliExpress",
+      "Amazon",
+      "BestBuy",
+      "Flipkart",
+      "Unknown",
+      "eBay"
+    ]
+  },
+  "exchange_rates": {
+    "Australia": {
+      "currency": "AUD",
+      "exchange_rate_to_usd": 1.53
+    },
+    "Brazil": {
+      "currency": "BRL",
+      "exchange_rate_to_usd": 5.7
+    },
+    "Canada": {
+      "currency": "CAD",
+      "exchange_rate_to_usd": 1.38
+    },
+    "Germany": {
+      "currency": "EUR",
+      "exchange_rate_to_usd": 0.93
+    },
+    "India": {
+      "currency": "INR",
+      "exchange_rate_to_usd": 83.0
+    },
+    "UAE": {
+      "currency": "AED",
+      "exchange_rate_to_usd": 3.67
+    },
+    "UK": {
+      "currency": "GBP",
+      "exchange_rate_to_usd": 0.78
+    },
+    "USA": {
+      "currency": "USD",
+      "exchange_rate_to_usd": 1.0
+    }
+  }
+}

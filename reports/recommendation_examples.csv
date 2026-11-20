@@ -1,0 +1,16 @@
+selected,model,brand,product_segment,avg_price_usd,avg_rating,similarity,reason
+iPhone 14,iPhone 13,Apple,Premium,1108.265,3.149,0.929,same Premium segment · avg price +$9 · strongest aspect: Performance
+iPhone 14,iPhone SE,Apple,Premium,1103.381,3.108,0.892,same Premium segment · avg price +$4 · strongest aspect: Display
+iPhone 14,iPhone 15 Pro,Apple,Premium,1103.41,3.084,0.859,same Premium segment · avg price +$4 · strongest aspect: Camera
+Galaxy S24,Galaxy A55,Samsung,Upper mid-range,904.538,3.09,0.942,same Upper mid-range segment · avg price +$10 · strongest aspect: Battery
+Galaxy S24,Galaxy Z Flip,Samsung,Upper mid-range,899.383,3.135,0.883,same Upper mid-range segment · avg price +$5 · strongest aspect: Performance
+Galaxy S24,Galaxy Note 20,Samsung,Upper mid-range,899.746,3.149,0.875,same Upper mid-range segment · avg price +$6 · strongest aspect: Performance
+Pixel 8,Pixel 7a,Google,Mid-range,806.821,3.128,0.951,same Mid-range segment · avg price +$8 · strongest aspect: Display
+Pixel 8,Pixel 6,Google,Mid-range,807.921,3.114,0.947,same Mid-range segment · avg price +$9 · strongest aspect: Display
+Pixel 8,OnePlus 11R,OnePlus,Mid-range,672.787,3.12,0.501,same Mid-range segment · avg price -$126 · strongest aspect: Display
+OnePlus 12,OnePlus 11R,OnePlus,Mid-range,672.787,3.12,0.963,same Mid-range segment · avg price +$2 · strongest aspect: Display
+OnePlus 12,OnePlus Nord 3,OnePlus,Mid-range,674.664,3.135,0.949,same Mid-range segment · avg price +$4 · strongest aspect: Display
+OnePlus 12,Pixel 8,Google,Mid-range,798.97,3.122,0.499,same Mid-range segment · avg price +$128 · strongest aspect: Design
+Realme 12 Pro,Realme Narzo 70,Realme,Budget,392.707,3.13,0.957,same Budget segment · avg price -$1 · strongest aspect: Performance
+Realme 12 Pro,Redmi Note 13,Xiaomi,Budget,449.782,3.122,0.715,same Budget segment · avg price +$56 · strongest aspect: Camera
+Realme 12 Pro,Poco X6,Xiaomi,Budget,450.267,3.116,0.712,same Budget segment · avg price +$56 · strongest aspect: Performance

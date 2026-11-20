@@ -1,0 +1,72 @@
+{
+  "anova_rating_by_brand": {
+    "F": 0.5028482624932232,
+    "p": 0.8066951385849119,
+    "significant": false
+  },
+  "kruskal_rating_by_brand": {
+    "H": 3.787330970839677,
+    "p": 0.7054301995544747,
+    "significant": false
+  },
+  "anova_rating_by_model": {
+    "F": 0.754413864813797,
+    "p": 0.7783958683467859,
+    "significant": false
+  },
+  "anova_price_by_brand": {
+    "F": 12801.113914339056,
+    "p": 0.0,
+    "significant": true
+  },
+  "chi2_sentiment_vs_brand": {
+    "chi2": 13.529672554640179,
+    "dof": 12.0,
+    "p": 0.33174438905091935,
+    "significant": false
+  },
+  "chi2_sentiment_vs_country": {
+    "chi2": 15.174043844701263,
+    "dof": 14.0,
+    "p": 0.36636171779711363,
+    "significant": false
+  },
+  "chi2_sentiment_vs_source": {
+    "chi2": 7.032961000092506,
+    "dof": 10.0,
+    "p": 0.722329612471499,
+    "significant": false
+  },
+  "chi2_brand_vs_age_group": {
+    "chi2": 22.949192022550434,
+    "dof": 24.0,
+    "p": 0.5227991342203266,
+    "significant": false
+  },
+  "chi2_brand_vs_country": {
+    "chi2": 33.20308795928504,
+    "dof": 42.0,
+    "p": 0.8320424132989217,
+    "significant": false
+  },
+  "pearson_price_vs_rating": {
+    "r": 0.001493660732180328,
+    "p": 0.7383912326279238,
+    "significant": false
+  },
+  "spearman_price_vs_aspect_avg": {
+    "rho": 0.0008014564159426297,
+    "p": 0.8577754414044167,
+    "significant": false
+  },
+  "pearson_helpful_votes_vs_rating": {
+    "r": 0.46031258644881606,
+    "p": 0.0,
+    "significant": true
+  },
+  "welch_t_rating_verified_vs_not": {
+    "t": -0.16508713571424707,
+    "p": 0.8688775701333229,
+    "significant": false
+  }
+}
