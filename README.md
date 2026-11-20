@@ -12,7 +12,7 @@ An end-to-end Python and machine-learning pipeline built on the **Global Mobile 
 **Domain:** E-Commerce Analytics & Intelligent Product Recommendation Systems
 **Stack:** Python, Pandas, NumPy, scikit-learn, SciPy, Matplotlib, Seaborn, Plotly, Streamlit
 
-**Live app:** _add your Streamlit link here after deploying_
+**Live app:** https://mobile-segmentation-recommender.streamlit.app
 
 ---
 
